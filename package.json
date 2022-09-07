@@ -1,4 +1,5 @@
 {
+  "homepage": "http://parth2323.github.io/Weather-ReactApp-Deploye",
   "name": "weather-react",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +13,8 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
+    "predeploy":"nom run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
