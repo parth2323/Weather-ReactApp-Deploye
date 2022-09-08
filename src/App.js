@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import logo from '/Users/parthpatel/Documents/weather-react/src/assets/weather.gif';
-import Modal from './Modal';
+//import Modal from './Modal';
 
 const api = {
   key:"6e8e22fc70b7abd0c868e0b3d8f59b2c",
@@ -9,7 +9,7 @@ const api = {
 
 function App() {
 
-  const [openModal, setOpenModal] = useState(false);
+  //const [openModal, setOpenModal] = useState(false);
   const [query, setQuery] = useState('');
   const [weather, setWeather] = useState('');
 
